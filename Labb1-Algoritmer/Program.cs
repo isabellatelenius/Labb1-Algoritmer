@@ -56,4 +56,4 @@ for (int startIndex = 0; startIndex < text.Length; startIndex++)
 }
 
 Console.WriteLine();
-Console.WriteLine($"Total = {total}");
+Console.WriteLine($"Total = {total}"); // Skriver ut totalsumman av alla tal som hittats i texten
