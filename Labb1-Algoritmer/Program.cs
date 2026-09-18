@@ -1,5 +1,5 @@
 ﻿Console.Write("Skriv in en text med siffror: ");
-string text = Console.ReadLine() ?? "";
+string text = Console.ReadLine() ?? "";  //Om Console.ReadLine() av någon anledning blir null, använd en tom string istället.
 
 long total = 0;
 
